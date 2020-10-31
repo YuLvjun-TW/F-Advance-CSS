@@ -30,3 +30,103 @@ ul {
     height: 60px;
     color: white;
 }
+
+.main {
+    display: flex;
+    width: 96%;
+    margin-left: 2%;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.left-content {
+    flex: 1;
+}
+
+.article {
+    flex: 6;
+}
+
+.right-content {
+    flex: 1;
+}
+
+.about-sec, .login {
+    background-color: #f1efef;
+}
+
+.left-content h1 {
+    padding-top: 25px;
+}
+
+.about-sec p, .archive-sec ul {
+    padding-bottom: 25px;
+}
+
+.about-sec h1, .about-sec p, .archive-sec ul, .archive-sec h1 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.archive-sec ul {
+    text-decoration: underline;
+    color: #a20ba2;
+}
+
+.article {
+    margin-left: 1%;
+}
+
+.article figure {
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.article img {
+    width: 100%;
+}
+
+.article figcaption, .article a {
+    padding: 10px;
+}
+
+.article-left {
+    float: left;
+    width: 48%;
+}
+
+.article-second-card {
+    float: left;
+    width: 48%;
+}
+
+.article a {
+    color: dodgerblue;
+}
+
+.right-content {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    padding: 20px;
+}
+
+.email, .password, .submit {
+    height: 30px;
+
+}
+
+.checkbox {
+    margin: 12px;
+}
+
+.submit {
+    width: 90%;
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+}
